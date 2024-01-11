@@ -1,0 +1,447 @@
+*{
+    margin: 0;;
+}
+
+/* header & related styles */
+
+header{
+    margin-top: 50px;
+    margin-right: 140px;
+    margin-bottom: 120px;
+    margin-left: 140px;
+}
+
+header h2, h4{
+    color: rgb(255, 202, 104);
+}
+
+.bg-wrap{
+    height: 600px;
+    /* bg image setting with the
+    following attributes. 
+    Pro tip: check dimension of image to set height  
+    */
+    background-image: url("images/Banner Image.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+}
+
+.bg-text-wrap{
+    /* trbl formatted padding for easy debugging */
+    padding-top: 233px;
+    padding-right: 344px;
+    padding-bottom: 177px;
+    padding-left: 344px;
+}
+
+.bg-text-wrap h2, h4{
+    text-align: center;
+}
+
+
+.bg-text-wrap h4{
+    /* color: #FFF; */
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+
+.bg-text-wrap h2{
+    /* color: #FFF; */
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+
+
+
+
+/* main & related styles */
+
+/* section discount-wrap & related styles */
+
+.discount-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+.discount-text-wrap{
+    text-align: center;
+}
+
+.discount-percentage{
+    color: #F00;
+    /* text-align: center; */ /* reason: we did it on the div level */
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+}
+
+.discount-quote{
+    padding-top: 48px;
+    color: #F00;
+    /* text-align: center; */ /* reason: same as before */
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.discount-categories{
+    padding-bottom: 48px;
+    color: black;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+
+/* section midnight-party */
+
+.midnight-party{
+    height: 600px;
+    /* bg image setting with the
+    following attributes. 
+    Pro tip: check dimension of image to set height  
+    */
+    margin-right: 140px;
+    margin-bottom: 120px;
+    margin-left: 140px;
+    background-image: url("images/Vectorrr.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+}
+
+/* trl 126 552 126 */
+
+.midnight-party-heading{
+    padding-top: 126px;
+    padding-right: 552px;
+    padding-left: 126px;
+    color: white;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+}
+
+/* trbl 24 497 214 126 */
+
+.midnight-party-paragraph{
+    padding-top: 24px;
+    padding-right: 497px;
+    padding-bottom: 20px;
+    padding-left: 126px;
+    color: white;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.party-btn{
+    margin-left: 158px;
+    margin-top: 48px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.party-btn > button{
+    border-radius: 5px;
+    background: #000;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/* venue & related styles */
+
+.venue{
+    background-color: rgb(208, 170, 170);
+    margin: 0px 140px;
+    border-radius: 10px;
+}
+
+.venue-address{
+    display: flex;
+    justify-content: center;
+    /* align-content: center; */
+}
+
+.venue-address > h3{
+    /* text-align: center; */
+    padding-top: 100px;
+}
+
+.venue-btn{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 126px;
+    margin: 48px;
+}
+
+.venue-btn > button{
+    border-radius: 8px;
+    background: #F00;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.offer{
+    display: flex;
+    margin: 120px 140px;
+    justify-content: space-between;
+}
+
+.offer-info-wrap{
+    display: flex;
+    align-items: center;
+}
+
+.again-new-year-wrap{
+    display: flex;
+    align-items: center;
+}
+
+.offer-info .offer-title{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.offer-info .offer-cs{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    padding-bottom: 20px;
+}
+
+.offer-info .offer-details{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.again-new-year{
+    padding-top: 60px;
+}
+
+.again-new-year > h3{
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.again-new-year > p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+}
+
+.holiday-sale{
+    margin: 120px 140px;
+}
+
+.holiday-sale-text h5{
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.holiday-sale-text h2{
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.holiday-sale-text p{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    padding: 28px 268px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.holiday-sale-images{
+    height: 229px;
+    background-image: url("images/Rectangle 2.png");
+    border-bottom-right-radius: 15px;
+}
+
+.gifts{
+    margin: 120px 140px;
+}
+
+.gift-text h5{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 16px;
+}
+
+.gift-text h2{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    padding-bottom: 22px;
+}
+
+.gift-text p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 48px;
+    padding-right: 424px;
+}
+
+.gift-photos img{
+    width: 381px;
+}
+
+.subscribe{
+    margin: 120px 140px;
+    height: 616px;
+    background-color: antiquewhite;
+}
+
+.img-wrap{
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+
+.subscribe-text .sn, .snp{
+    text-align: center;
+    padding-left: 212px;
+    padding-right: 212px;
+}
+
+.subscribe-text h2{
+    padding-top: 40px;
+    padding-bottom: 22px;
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.subscribe-text p{
+    padding-bottom: 48px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.subscribe-email-button{
+    display: flex;
+    justify-content: center;
+}
+
+.subscribe-email-button .sub-email{
+    padding: 25px 25px 25px 30px;
+    border-radius: 50px 0px 0px 50px;
+    height: 20px;
+    width: 300px;
+}
+
+.subscribe-email-button button{
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    height: 75px;
+    width: 120px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+footer{
+    height: 609px;
+    background-color: #1e1d1d;
+    color: #FFF;
+}
+
+.address-and-contact{
+    padding-top: 120px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.address{
+    width: 300px;
+    height: 80px;
+}
+
+.social-links{
+    padding-top: 48px;
+    padding-bottom: 48px;
+    display: flex;
+    justify-content: center;
+}
+
+.social-links a{
+    margin-right: 24px;
+}
+
+hr{
+    margin-left: 140px;
+    width: 1150px;
+}
+
+.final{
+    margin-top: 50px;
+    margin-right: 140px;
+    margin-left: 140px;
+    display: flex;
+    justify-content: space-between;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.unsub a{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
